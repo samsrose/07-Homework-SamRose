@@ -1,0 +1,91 @@
+body {
+  background-color: #36454f;
+}
+
+th {
+  font-size: 20px;
+  text-align: center;
+  background-color: #96c8a2;
+}
+
+h4 {
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(155, 191, 193) !important;
+  border: 3px solid #36454f;
+  border-radius: 10px;
+  color: #233440;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.card {
+  margin-top: 2.1rem;
+  border-radius: 10px;
+  background-color: #cbcbcb;
+}
+input {
+  border: 1px solid salmon;
+}
+td {
+  text-align: center;
+}
+#first {
+  margin-top: 50px;
+}
+#last {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50vw;
+}
+label {
+  font-size: 16px;
+}
+.jumbotron {
+  margin: 15px auto;
+  padding: 10px;
+  width: 50%;
+  border: 3px solid #96c8a2;
+}
+.jumbotron .text-center {
+  color: #96c8a2;
+  text-shadow: #000 2px 3px 3px;
+}
+.jumbotron,
+#submitButton {
+  background-color: #396f90;
+}
+
+button {
+  font-size: 18px !important;
+  text-align: center !important;
+  width: 100%;
+  margin: 0;
+}
+button:hover {
+  background-color: #42e194 !important;
+}
+
+.text-center {
+  color: #36454f;
+  line-height: 1.5;
+}
+
+@media (max-width: 576px) {
+  .container-fluid {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 640px) {
+  .container-fluid {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 960px) {
+  .container-fluid {
+    max-width: 70%;
+  }
+}
